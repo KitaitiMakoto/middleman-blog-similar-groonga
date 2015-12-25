@@ -5,11 +5,11 @@ Gem::Specification.new do |s|
   s.name        = "middleman-blog-similar-groonga"
   s.version     = "0.0.1"
   s.platform    = Gem::Platform::RUBY
-  # s.authors     = ["Your Name"]
-  # s.email       = ["email@example.com"]
-  # s.homepage    = "http://example.com"
-  # s.summary     = %q{A short summary of your extension}
-  # s.description = %q{A longer description of your extension}
+  s.authors     = ["KITAITI Makoto"]
+  s.email       = ["KitaitiMakoto@gmail.com"]
+  s.homepage    = "https://github.com/KitaitiMakoto/middleman-blog-similar-groonga"
+  s.summary     = %q{Middleman extension to list similar pages using Groonga}
+  s.description = %q{Middleman extension to list similar pages using Groonga}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
