@@ -21,4 +21,6 @@ Gem::Specification.new do |s|
   
   # Additional dependencies
   # s.add_runtime_dependency("gem-name", "gem-version")
+  s.add_runtime_dependency("rroonga")
+  s.add_runtime_dependency("middleman-blog", [">= 4.0.0"])
 end
