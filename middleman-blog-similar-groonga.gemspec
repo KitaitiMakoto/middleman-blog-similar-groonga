@@ -5,6 +5,7 @@ Gem::Specification.new do |s|
   s.name        = "middleman-blog-similar-groonga"
   s.version     = "0.0.1"
   s.platform    = Gem::Platform::RUBY
+  s.license     = "LGPL"
   s.authors     = ["KITAITI Makoto"]
   s.email       = ["KitaitiMakoto@gmail.com"]
   s.homepage    = "https://github.com/KitaitiMakoto/middleman-blog-similar-groonga"
