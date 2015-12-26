@@ -52,7 +52,6 @@ module Middleman::Blog
               (article.key != current_page.path)
           }
           results.sort([key: '_score', order: 'descending'])
-require 'pp';pp results
           results
         end
       end
